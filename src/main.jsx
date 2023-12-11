@@ -6,6 +6,7 @@ import Flats from "../src/components/Flats.jsx";
 import "./index.css";
 import About from "./components/About.jsx";
 import Hostels from "./components/Hostels.jsx";
+import Test from "./components/Test.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/hostels",
     element: <Hostels />,
+  },
+  {
+    path: "/test",
+    element: <Test />,
   },
 ]);
 
