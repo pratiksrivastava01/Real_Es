@@ -6,11 +6,13 @@ import Testimonials from "./Testimonials";
 import Filter from "./Filter";
 import Contact from "./Contact";
 import Cards from "./Cards";
+import Call from "./Call";
 
 const Test = () => {
   return (
     <>
       <Navbar />
+      <Call />
       <section className="relative">
         <img
           src="/bg1.jpg"
