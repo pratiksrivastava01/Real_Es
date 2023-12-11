@@ -17,7 +17,7 @@ const Test = () => {
           alt="background"
           className="w-full h-auto md:h-full"
         />
-        <h1 className="font-bold text-3xl  text-center text-black absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <h1 className="font-bold text-3xl sm:text-sm  text-center text-black absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           Kolkata&apos;s Largest NoBrokerage Property Site
         </h1>
       </section>
