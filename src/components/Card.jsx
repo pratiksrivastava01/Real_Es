@@ -28,7 +28,7 @@ const RentComponent = () => (
 );
 
 const Card = () => {
-  const [activeLink, setActiveLink] = useState("");
+  const [activeLink, setActiveLink] = useState("Basant");
 
   const Properties_Links = [
     { href: "", key: "home", label: "Basant" },
