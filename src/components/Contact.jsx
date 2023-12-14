@@ -42,7 +42,7 @@ const Contact = () => {
               className="flex flex-col justify-center gap-4 p-4"
               onSubmit={handleSubmit}
             >
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col  gap-4">
                 <div className="text-black text-base leading-6 font-normal tracking-tight border-box cursor-text inline-flex items-center relative font-rubik bg-gray-10 p-4 gap-2 rounded-xl">
                   <MdEmail />
                   <input

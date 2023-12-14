@@ -53,7 +53,7 @@ const Footer = () => {
                       alt="logo"
                       width={24}
                       height={24}
-                      className=" bg-white text-white"
+                      className=" "
                     />
                   </a>
                 </li>
