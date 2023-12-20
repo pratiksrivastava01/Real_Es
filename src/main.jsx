@@ -7,6 +7,8 @@ import "./index.css";
 import About from "./components/About.jsx";
 import Hostels from "./components/Hostels.jsx";
 import Test from "./components/Test.jsx";
+import Test2 from "./components/Test2.jsx";
+import Test3 from "./components/Test3.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
   {
     path: "/test",
     element: <Test />,
+  },
+  {
+    path: "/test2",
+    element: <Test2 />,
+  },
+  {
+    path: "/test3",
+    element: <Test3 />,
   },
 ]);
 
