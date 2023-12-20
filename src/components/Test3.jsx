@@ -6,6 +6,9 @@ import { useState } from "react";
 import Footer from "./Footer";
 import Cardss from "./Cardss";
 import { RxCaretDown, RxCaretUp } from "react-icons/rx";
+import DumDum from "./DumDum";
+import Barasat from "./Barasat";
+import NewTown from "./NewTown";
 
 const SaleComponent = () => (
   <div className="bg-white border-t-red-500 rounded-lg p-4 flex flex-wrap items-center gap-10">
@@ -42,6 +45,7 @@ const TenentComponent = () => (
     </div>
   </div>
 );
+
 const LandlordComponent = () => (
   <div className="bg-white border-t-red-500 rounded-lg p-4 flex flex-wrap items-center gap-10">
     hello
@@ -74,9 +78,16 @@ const Test3 = () => {
   };
 
   const [isDropdownOpen, setDropdownOpen] = useState(false);
+  const [selectedOption, setSelectedOption] = useState("Option 1");
 
   const toggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen);
+  };
+
+  const handleOptionSelect = (option) => {
+    setSelectedOption(option);
+    setDropdownOpen(false);
+    // You can perform additional actions based on the selected option if needed
   };
 
   return (
@@ -216,21 +227,33 @@ const Test3 = () => {
           </div>
         </div>
       </div>
-      <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+      <section className="max-container padding-container flex flex-col gap-20 py-10 pb-10 md:gap-28 lg:py-20 xl:flex-row">
+        <video
+          src="/vid.mp4"
+          autoPlay={true}
+          muted
+          className="rounded-lg "
+          loop={true}
+        >
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 sm:pb-0 md:gap-28 lg:py-20 xl:flex-row">
         <img
           src="/images.jpg"
           alt="house"
-          className="h-[34rem] w-[33rem] rounded-lg"
+          className="h-[34rem] w-[33rem] rounded-lg sm:h-[20rem]  "
         />
 
-        <div className="mt-5">
-          <ul className="flex rounded-lg bg-gray-10 px-5 p-2 gap-12">
+        <div className="mt-5 sm:mt-2">
+          <ul className="flex rounded-lg bg-gray-10 px-5 p-2 gap-12 ">
             {Info_Links.map((link) => (
               <a
                 key={link.key}
                 href={link.href}
                 onClick={(event) => handleeLinkClick(event, link.label)}
-                className={`text-xl cursor-pointer pb-1.5 p-2 transition-all ${
+                className={`text-xl cursor-pointer pb-1.5 p-2 transition-all sm:text-sm  ${
                   activeeLink === link.label
                     ? "font-bold text-[#7065F0] bg-white rounded-lg border-b-blue-400"
                     : "text-gray-50"
@@ -278,13 +301,13 @@ const Test3 = () => {
         </div>
       </section>
 
-      <section className="max-container  padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+      <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
         <div className="relative z-20 flex flex-1 justify-center p-4 rounded-lg xl:w-1/2 bg-[#F7F7FD] border-2">
           <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-            <h1 className="bold-20 sm:items-center ml-10 mt-5 sm:text-center lg:bold-52">
+            <h1 className="bold-20 sm:items-center ml-10 sm:ml-0 sm:text-start mt-5 sm:mt-0  lg:bold-52">
               The new way to find <br /> your new home
             </h1>
-            <p className="regular-18 sm:regular-16 font-bold ml-10 sm:text-center mt-6 text-gray-30 xl:max-w-[520px]">
+            <p className="regular-18 sm:regular-16 font-bold ml-10 sm:ml-0 sm:text-starat mt-6 text-gray-30 xl:max-w-[520px]">
               Discover your dream home among a diverse selection of over 10,000
               properties listed. Whether you&apos;re seeking a cozy apartment, a
               spacious house, or a stylish condominium, our platform offers a
@@ -292,8 +315,8 @@ const Test3 = () => {
               lifestyle. Begin your journey to finding the perfect living space
               today!
             </p>
-            <div className="flexBetween">
-              <div className="ml-10 mt-5 flex flex-col items-center">
+            <div className="flex  justify-center mt-5">
+              <div className="ml-4 mt-5 flex flex-col items-center">
                 <img
                   src="/discount.png"
                   alt=""
@@ -302,16 +325,16 @@ const Test3 = () => {
                 <span className="font-bold">7.4%</span>
                 <p className="text-gray-30">Property return rate</p>
               </div>
-              <div className="ml-10 mt-5 flex flex-col items-center">
+              <div className="ml-4 mt-5 flex flex-col items-center">
                 <img
                   src="/property-1.png"
                   alt=""
-                  className="w-[3rem] h-[3rem] "
+                  className="w-[3rem] h-[3rem]"
                 />
                 <span className="font-bold">3,856</span>
                 <p className="text-gray-30">Property in sell and rent</p>
               </div>
-              <div className="ml-10 mt-5 flex flex-col items-center">
+              <div className="ml-4 mt-5 flex flex-col items-center">
                 <img
                   src="/mobile-banking.png"
                   alt=""
@@ -322,109 +345,83 @@ const Test3 = () => {
               </div>
             </div>
           </div>
-          <img src="/bg-1.png" alt="" className="h-[30rem] w-[40rem]" />
+          <img
+            src="/bg-1.png"
+            alt=""
+            className="h-[30rem] w-[40rem] hidden md:w-full xl:w-auto xl:block self-end"
+          />
         </div>
+
+        {/* Side image hidden on smaller devices */}
       </section>
 
       <div className="bg-[#F7F7FD]">
-        <section className="max-container  padding-container  gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
-          <div className="flex justify-between items-center">
-            <div>
-              <h1 className="bold-32 sm:items-center sm:text-center lg:bold-40">
+        <section className="max-container  padding-container  gap-20 py-10 pb-32 sm:pb-0 md:gap-28 lg:py-20 xl:flex-row">
+          <div className="flex flex-row  sm:flex-col sm:justify-start justify-between items-center">
+            <div className="text-center sm:text-left">
+              <h1 className="font-bold text-2xl sm:text-3xl lg:text-4xl">
                 Based on your location
               </h1>
-              <span className="text-gray-20 mt-3">
+              <span className="text-gray-600 mt-2 sm:mt-3">
                 Some of our picked properties near your location
               </span>
             </div>
-            <div className="relative inline-block">
+
+            <div className="relative inline-block mt-4 sm:mt-0">
               <button
                 onClick={toggleDropdown}
-                className="bg-[#7065F0] px-10 rounded-lg flex justify-between p-4 text-white items-center mt-10"
+                className="bg-purple-600 px-6 py-3 rounded-lg text-white flex items-center"
               >
                 Browse more options
-                {isDropdownOpen ? <RxCaretDown className="" /> : <RxCaretUp />}
+                {isDropdownOpen ? (
+                  <RxCaretDown className="ml-2" />
+                ) : (
+                  <RxCaretUp className="ml-2" />
+                )}
               </button>
 
               {isDropdownOpen && (
-                <div className="absolute mt-2 z-50 w-[100%] items-center bg-white shadow-lg rounded-md py-2 px-4">
+                <div className="absolute mt-2 z-50 w-full sm:w-auto bg-white shadow-lg rounded-md py-2 px-4">
                   {/* Dropdown content goes here */}
                   <a
-                    href="#"
-                    className="block text-gray-800 font-bold hover:text-[#7065F0] py-1"
+                    className="block text-gray-800 font-bold hover:text-purple-600 py-1 cursor-pointer"
+                    onClick={() => handleOptionSelect("Option 1")}
                   >
-                    Option 1
+                    Dum Dum
                   </a>
                   <a
-                    href="#"
-                    className="block text-gray-800 font-bold hover:text-[#7065F0] py-1"
+                    className="block text-gray-800 font-bold hover:text-purple-600 py-1 cursor-pointer"
+                    onClick={() => handleOptionSelect("Option 2")}
                   >
-                    Option 2
+                    Barasat
                   </a>
                   <a
-                    href="#"
-                    className="block text-gray-800 font-bold hover:text-[#7065F0] py-1"
+                    className="block text-gray-800 font-bold hover:text-purple-600 py-1 cursor-pointer"
+                    onClick={() => handleOptionSelect("Option 3")}
                   >
-                    Option 3
+                    New Town
                   </a>
                 </div>
               )}
             </div>
+
+            {/* Render content based on the selected option */}
           </div>
-          <div className="mt-10 flexBetween">
-            <Cardss
-              imageUrl="/house-bg.jpg"
-              price={"₹15,000"}
-              address={"8, Alipore Park Pl, Alipore"}
-              bedCount={"4"}
-              bathCount={"2"}
-              area={"6 x 7.5 m²"}
-              isPopular={"true"}
-            />
-            <Cardss
-              imageUrl="/house-bg.jpg"
-              price={"₹15,000"}
-              address={"8, Alipore Park Pl, Alipore"}
-              bedCount={"4"}
-              bathCount={"2"}
-              area={"6 x 7.5 m²"}
-            />
-            <Cardss
-              imageUrl="/house-bg.jpg"
-              price={"₹15,000"}
-              address={"8, Alipore Park Pl, Alipore"}
-              bedCount={"4"}
-              bathCount={"2"}
-              area={"6 x 7.5 m²"}
-            />
-          </div>
-          <div className="mt-10 flexBetween">
-            <Cardss
-              imageUrl="/house-bg.jpg"
-              price={"₹15,000"}
-              address={"8, Alipore Park Pl, Alipore"}
-              bedCount={"4"}
-              bathCount={"2"}
-              area={"6 x 7.5 m²"}
-            />
-            <Cardss
-              imageUrl="/house-bg.jpg"
-              price={"₹15,000"}
-              address={"8, Alipore Park Pl, Alipore"}
-              bedCount={"4"}
-              bathCount={"2"}
-              area={"6 x 7.5 m²"}
-            />
-            <Cardss
-              imageUrl="/house-bg.jpg"
-              price={"₹15,000"}
-              address={"8, Alipore Park Pl, Alipore"}
-              bedCount={"4"}
-              bathCount={"2"}
-              area={"6 x 7.5 m²"}
-            />
-          </div>
+
+          {selectedOption === "Option 1" && <DumDum />}
+          {selectedOption === "Option 2" && <Barasat />}
+          {selectedOption === "Option 3" && <NewTown />}
         </section>
+        {/* <section className="max-container  padding-container  gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+          <div className="text-center">
+            <h1 className="bold-32 sm:items-center sm:text-center lg:bold-52 text-center">
+              Testimonials
+            </h1>
+            <p className="text-gray-20">
+              See what our property manages, landlords, and tenents have to say
+            </p>
+          </div>
+        </section> */}
       </div>
       <Footer />
     </>

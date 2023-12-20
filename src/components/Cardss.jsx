@@ -12,7 +12,7 @@ const Cardss = ({
   isPopular,
 }) => {
   return (
-    <section className="relative flex-1 hidden md:w-full xl:w-auto xl:block items-start">
+    <section className="relative flex-1 flex flex-wrap ">
       <div className="relative z-20 flex bg-white rounded-lg w-[300px] flex-col gap-8">
         {isPopular && (
           <div className="absolute top-2 right-2 bg-[#7065F0] text-white px-2 py-1 rounded-md">
