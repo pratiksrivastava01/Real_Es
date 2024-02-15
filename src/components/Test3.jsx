@@ -10,6 +10,7 @@ import Barasat from "./Barasat";
 import NewTown from "./NewTown";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
+import Call from "./Call";
 
 const SaleComponent = () => (
   <div className="bg-white border-t-red-500 rounded-lg p-4 flex flex-wrap items-center gap-10">
@@ -82,7 +83,7 @@ const Test3 = () => {
   };
 
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("Option 1");
+  const [selectedOption, setSelectedOption] = useState("Option 2");
 
   const toggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen);
@@ -97,6 +98,7 @@ const Test3 = () => {
   return (
     <>
       <Navbar />
+      <Call />
       <div className="bg-[#F7F7FD]">
         <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
           <div className="hero-map" />
@@ -165,15 +167,19 @@ const Test3 = () => {
             <div className="relative z-20 flex bg-white rounded-lg w-[268px] flex-col gap-8 ">
               <div className="flex flex-col">
                 <div className="flexBetween">
-                  <img src="/house-bg.jpg" alt="house" className="rounded-lg" />
+                  <img
+                    src="/properties/Barasat5.jpg"
+                    alt="house"
+                    className="rounded-lg"
+                  />
                 </div>
               </div>
 
               <div className="">
                 <div className="px-4">
                   <p className="block bold-20 font-bold text-[#7065F0]">
-                    ₹15,000{" "}
-                    <span className="text-gray-20 regular-16">/month</span>
+                    ₹3.35Cr
+                    {/* <span className="text-gray-20 regular-16">/month</span> */}
                   </p>
                   <h1 className="font-bold bold-20">Beverly Springfield</h1>
                   <span className="text-gray-20">
@@ -374,7 +380,7 @@ const Test3 = () => {
             <div className="relative inline-block mt-4 sm:mt-0">
               <button
                 onClick={toggleDropdown}
-                className="bg-purple-600 px-6 py-3 rounded-lg text-white flex items-center"
+                className="bg-purple-600 px-6 py-3 rounded-lg text-white flex items-center invisible"
               >
                 Browse more options
                 {isDropdownOpen ? (
