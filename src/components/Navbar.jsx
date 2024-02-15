@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <a href="/">
-        <img src="/logo.svg" alt="logo" width={74} height={29} />
+        <img src="/Logo.png" alt="logo" width={100} height={50} />
       </a>
 
       {/* Toggle menu icon */}

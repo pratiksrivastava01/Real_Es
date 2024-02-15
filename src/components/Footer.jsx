@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-16">
         <div className="text-center md:text-left max-w-md">
           <a href="/" className="mb-6 inline-block">
-            <img src="/logo.svg" alt="logo" width={74} height={29} />
+            <img src="/Logo1.png" alt="logo" width={100} height={50} />
           </a>
           <p className="text-gray-300">
             Someone will visit a website because they are interested in the

@@ -105,7 +105,7 @@ const Test3 = () => {
 
           <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
             <h1 className="bold-32 sm:items-center sm:text-center lg:bold-64">
-              Buy, rent, or sell your property easliy
+              Ghar Dhundo Baare Aramse !!
             </h1>
             <p className="regular-20 sm:regular-16 font-bold sm:text-center mt-6 text-black xl:max-w-[520px]">
               Discover the ultimate platform to effortlessly buy, sell, or rent
@@ -251,13 +251,13 @@ const Test3 = () => {
 
       <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 sm:pb-0 md:gap-28 lg:py-20 xl:flex-row">
         <img
-          src="/images.jpg"
+          src="/properties/Barasat5.jpg"
           alt="house"
           className="h-[34rem] w-[33rem] rounded-lg sm:h-[20rem]  "
         />
 
         <div className="mt-5 sm:mt-2">
-          <ul className="flex rounded-lg bg-gray-10 px-5 p-2 gap-12 ">
+          <ul className="flex rounded-lg bg-gray-10 px-5 p-2 gap-12 invisible">
             {Info_Links.map((link) => (
               <a
                 key={link.key}
