@@ -2,13 +2,14 @@ import { MdOutlineBathtub } from "react-icons/md";
 import Navbar from "./Navbar";
 import { IoBed } from "react-icons/io5";
 import { SlSizeActual } from "react-icons/sl";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Footer from "./Footer";
-import Cardss from "./Cardss";
 import { RxCaretDown, RxCaretUp } from "react-icons/rx";
 import DumDum from "./DumDum";
 import Barasat from "./Barasat";
 import NewTown from "./NewTown";
+import Testimonials from "./Testimonials";
+import Contact from "./Contact";
 
 const SaleComponent = () => (
   <div className="bg-white border-t-red-500 rounded-lg p-4 flex flex-wrap items-center gap-10">
@@ -53,6 +54,9 @@ const LandlordComponent = () => (
 );
 
 const Test3 = () => {
+  useEffect(() => {
+    document.title = "Property Platform "; // Set your desired page title here
+  }, []);
   const [activeLink, setActiveLink] = useState("Rent");
   const [activeeLink, setActiveeLink] = useState("For Tenents");
 
@@ -422,6 +426,10 @@ const Test3 = () => {
             </p>
           </div>
         </section> */}
+      </div>
+      <Testimonials />
+      <div id="contact">
+        <Contact />
       </div>
       <Footer />
     </>

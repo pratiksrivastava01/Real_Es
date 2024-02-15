@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App.jsx";
 import Flats from "../src/components/Flats.jsx";
 import "./index.css";
 import About from "./components/About.jsx";
@@ -13,7 +12,7 @@ import Test3 from "./components/Test3.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Test3 />,
   },
   {
     path: "/flats",
