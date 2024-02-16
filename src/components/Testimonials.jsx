@@ -59,14 +59,13 @@ const Testimonials = () => {
                 className="rounded-full"
               />
               <div className="flex flex-col">
-                <span className="bold-20">Pratik Srivastava</span>
-                <span>Job Position</span>
+                <span className="bold-20">Manik Das</span>
+                <span>Repeted Customer</span>
               </div>
             </div>
             <div className="mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              excepturi illo sequi quaerat quibusdam adipisci sit repellat sunt,
-              rerum nobis.
+              Property Platform is one stop destination for easy and seamless
+              property search
             </div>
           </div>
         </SwiperSlide>
@@ -81,14 +80,13 @@ const Testimonials = () => {
                 className="rounded-full"
               />
               <div className="flex flex-col">
-                <span className="bold-20">Pratik Srivastava</span>
+                <span className="bold-20">Sanchita Roy</span>
                 <span>Job Position</span>
               </div>
             </div>
             <div className="mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              excepturi illo sequi quaerat quibusdam adipisci sit repellat sunt,
-              rerum nobis.
+              With Property Platform it has been an easier way to find new house
+              or rent a place
             </div>
           </div>
         </SwiperSlide>
@@ -103,14 +101,13 @@ const Testimonials = () => {
                 className="rounded-full"
               />
               <div className="flex flex-col">
-                <span className="bold-20">Pratik Srivastava</span>
+                <span className="bold-20">Arindam Guinn</span>
                 <span>Job Position</span>
               </div>
             </div>
             <div className="mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              excepturi illo sequi quaerat quibusdam adipisci sit repellat sunt,
-              rerum nobis.
+              Best place to see which flat to rent{" "}
+              <span className="invisible"> Lorem, ipsum dolor.</span>
             </div>
           </div>
         </SwiperSlide>
@@ -125,83 +122,16 @@ const Testimonials = () => {
                 className="rounded-full"
               />
               <div className="flex flex-col">
-                <span className="bold-20">Pratik Srivastava</span>
+                <span className="bold-20">Amrita Datta</span>
                 <span>Job Position</span>
               </div>
             </div>
             <div className="mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              excepturi illo sequi quaerat quibusdam adipisci sit repellat sunt,
-              rerum nobis.
+              Easy , User friendly and beautiful website . One of it’s kind
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-blue-900 p-4 rounded-lg text-white">
-          <div className="p-2">
-            <div className="flex justify-center gap-10 items-center">
-              <img
-                src="/p1.png"
-                alt="person1"
-                height={55}
-                width={55}
-                className="rounded-full"
-              />
-              <div className="flex flex-col">
-                <span className="bold-20">Pratik Srivastava</span>
-                <span>Job Position</span>
-              </div>
-            </div>
-            <div className="mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              excepturi illo sequi quaerat quibusdam adipisci sit repellat sunt,
-              rerum nobis.
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="bg-blue-900 p-4 rounded-lg text-white">
-          <div className="p-2">
-            <div className="flex justify-center gap-10 items-center">
-              <img
-                src="/p1.png"
-                alt="person1"
-                height={55}
-                width={55}
-                className="rounded-full"
-              />
-              <div className="flex flex-col">
-                <span className="bold-20">Pratik Srivastava</span>
-                <span>Job Position</span>
-              </div>
-            </div>
-            <div className="mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              excepturi illo sequi quaerat quibusdam adipisci sit repellat sunt,
-              rerum nobis.
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="bg-blue-900 p-4 rounded-lg text-white">
-          <div className="p-2">
-            <div className="flex justify-center gap-10 items-center">
-              <img
-                src="/p1.png"
-                alt="person1"
-                height={55}
-                width={55}
-                className="rounded-full"
-              />
-              <div className="flex flex-col">
-                <span className="bold-20">Pratik Srivastava</span>
-                <span>Job Position</span>
-              </div>
-            </div>
-            <div className="mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              excepturi illo sequi quaerat quibusdam adipisci sit repellat sunt,
-              rerum nobis.
-            </div>
-          </div>
-        </SwiperSlide>
+
         {/* Add similar styling for other slides */}
       </Swiper>
     </div>

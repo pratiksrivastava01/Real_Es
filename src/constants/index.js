@@ -55,14 +55,7 @@ export const FEATURES = [
 export const FOOTER_LINKS = [
   {
     title: "About",
-    links: [
-      "About Us",
-      "Our Teams",
-      "Features",
-      "Jobs",
-      "Privacy Policy",
-      "Contact Us",
-    ],
+    links: ["About Us", "Jobs", "Privacy Policy", "Contact Us"],
   },
   {
     title: "Support",

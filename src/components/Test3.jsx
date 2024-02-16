@@ -327,13 +327,9 @@ const Test3 = () => {
             </p>
             <div className="flex  justify-center mt-5">
               <div className="ml-4 mt-5 flex flex-col items-center">
-                <img
-                  src="/discount.png"
-                  alt=""
-                  className="w-[3rem] sm:hidden h-[3rem]"
-                />
-                <span className="font-bold">7.4%</span>
-                <p className="text-gray-30">Property return rate</p>
+                <img src="/pin.png" alt="" className="w-[3rem]  h-[3rem]" />
+                <span className="font-bold invisible">7.4%</span>
+                <p className="text-gray-30">Easy to find</p>
               </div>
               <div className="ml-4 mt-5 flex flex-col items-center">
                 <img
@@ -341,8 +337,8 @@ const Test3 = () => {
                   alt=""
                   className="w-[3rem] h-[3rem]"
                 />
-                <span className="font-bold">3,856</span>
-                <p className="text-gray-30">Property in sell and rent</p>
+                <span className="font-bold invisible">3,856</span>
+                <p className="text-gray-30">properties in sell and rent</p>
               </div>
               <div className="ml-4 mt-5 flex flex-col items-center">
                 <img
@@ -350,7 +346,7 @@ const Test3 = () => {
                   alt=""
                   className="w-[3rem] h-[3rem]"
                 />
-                <span className="font-bold">2,450</span>
+                <span className="font-bold">100 +</span>
                 <p className="text-gray-30">Daily Transaction</p>
               </div>
             </div>
