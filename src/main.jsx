@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <Test3 />,
   },
   {
-    path: "/flats",
+    path: "/Bunglow",
     element: <Flats />,
   },
   {

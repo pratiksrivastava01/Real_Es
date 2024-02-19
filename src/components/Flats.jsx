@@ -14,10 +14,10 @@ import {
 import Call from "./Call";
 import Footer from "./Footer";
 import PropertyCard from "./PropertyCard";
-import Navbaar from "./Navbaar";
+import Navbar from "./Navbar";
 
 const Flats = () => {
-  const itemsPerPage = 3; // Adjust the number of items per page
+  const itemsPerPage = 5; // Adjust the number of items per page
   const [currentPage, setCurrentPage] = useState(1);
   const [currentData, setCurrentData] = useState([]);
 
@@ -44,7 +44,7 @@ const Flats = () => {
   }, [currentPage]);
 
   useEffect(() => {
-    document.title = "Flats"; // Set your desired page title here
+    document.title = "Explore Bunglows in Property Platform"; // Set your desired page title here
   }, []);
 
   const handlePageClick = (pageNumber) => {
@@ -61,7 +61,7 @@ const Flats = () => {
 
   return (
     <>
-      <Navbaar />
+      <Navbar />
       <Call />
       <section className="max-container padding-container mt-10">
         <h1 className="bold-20">

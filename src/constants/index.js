@@ -2,7 +2,7 @@
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
   { href: "/about", key: "about", label: "About" },
-  { href: "/flats", key: "Flats", label: "Flats" },
+  { href: "/Bunglow", key: "Flats", label: "Bunglow" },
   { href: "/hostels", key: "pricing ", label: "Hostels " },
 ];
 export const Properties_Links = [
@@ -172,14 +172,14 @@ export const footerLinks = [
 ];
 
 export const propertyData1 = {
-  image: "/12.jpg",
-  location: "3 BHK Flat in Sector 121 Kolkata",
+  image: "/properties/Barasat5.jpg",
+  location: "Bunglow(Ganguly Nest) (sec1, plot 2)",
   owner: "PS Groups",
   places: "8 Places nearby",
-  price1: "₹3.98",
+  price1: "₹3.35",
   amt: "Cr...",
   price2: "₹23,908",
-  area1: "1,665",
+  area1: "2,250",
   area2: "155",
   dimension1: "3",
   dimension2: "4",
@@ -187,12 +187,12 @@ export const propertyData1 = {
 };
 
 export const propertyData2 = {
-  image: "/13.avif",
+  image: "/properties/Barasat1.jpg",
   location: "3 BHK Flat in Sector 321 Kolkata",
   owner: "AD Groups",
   places: "10 places nearby",
-  price1: "₹3.98",
-  amt: "Cr...",
+  price1: "₹45",
+  amt: "Lakhs...",
   price2: "₹23,908",
   area1: "1,665",
   area2: "155",
@@ -202,7 +202,7 @@ export const propertyData2 = {
 };
 
 export const propertyData3 = {
-  image: "/14.avif",
+  image: "/properties/Barasat2.jpg",
   location: "3 BHK Flat in Sector 321 Kolkata",
   owner: "AD Groups",
   places: "10 places nearby",
@@ -217,11 +217,11 @@ export const propertyData3 = {
 };
 
 export const propertyData4 = {
-  image: "/28.webp",
+  image: "/properties/Barasat3.jpg",
   location: "3 BHK Flat in Sector 321 Kolkata",
   owner: "AD Groups",
   places: "10 places nearby",
-  price1: "₹3.98",
+  price1: "₹1.4",
   amt: "Cr...",
   price2: "₹23,908",
   area1: "1,665",
@@ -232,12 +232,12 @@ export const propertyData4 = {
 };
 
 export const propertyData5 = {
-  image: "/29.webp",
+  image: "/properties/Barasat4.jpg",
   location: "3 BHK Flat in Sector 321 Kolkata",
   owner: "AD Groups",
   places: "10 places nearby",
-  price1: "₹3.98",
-  amt: "Cr...",
+  price1: "₹32",
+  amt: "Lakhs...",
   price2: "₹23,908",
   area1: "1,665",
   area2: "155",

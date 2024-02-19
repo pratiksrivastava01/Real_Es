@@ -419,7 +419,7 @@ const Test3 = () => {
           {selectedOption === "Option 1" && <DumDum />}
           {selectedOption === "Option 2" && <Barasat />}
           {selectedOption === "Option 3" && <NewTown />}
-          <a href="">
+          <a href="/Bunglow">
             <button className="bg-[#7065F0] px-10 rounded-lg p-4 text-white mt-10">
               See more
             </button>
