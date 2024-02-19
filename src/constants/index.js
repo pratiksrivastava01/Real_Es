@@ -188,7 +188,7 @@ export const propertyData1 = {
 
 export const propertyData2 = {
   image: "/properties/Barasat1.jpg",
-  location: "3 BHK Flat in Sector 321 Kolkata",
+  location: "2 Storey house in Barasat indrolok  yogashram.",
   owner: "AD Groups",
   places: "10 places nearby",
   price1: "₹45",
@@ -203,7 +203,7 @@ export const propertyData2 = {
 
 export const propertyData3 = {
   image: "/properties/Barasat2.jpg",
-  location: "3 BHK Flat in Sector 321 Kolkata",
+  location: "1 storey New house in  Barasat Madhumurali ",
   owner: "AD Groups",
   places: "10 places nearby",
   price1: "₹3.98",
@@ -218,7 +218,7 @@ export const propertyData3 = {
 
 export const propertyData4 = {
   image: "/properties/Barasat3.jpg",
-  location: "3 BHK Flat in Sector 321 Kolkata",
+  location: "New smart full furnished house in Barasat Nabapally",
   owner: "AD Groups",
   places: "10 places nearby",
   price1: "₹1.4",
@@ -233,7 +233,7 @@ export const propertyData4 = {
 
 export const propertyData5 = {
   image: "/properties/Barasat4.jpg",
-  location: "3 BHK Flat in Sector 321 Kolkata",
+  location: " 3 katha . 1 storey independent house in Duttapukur",
   owner: "AD Groups",
   places: "10 places nearby",
   price1: "₹32",
