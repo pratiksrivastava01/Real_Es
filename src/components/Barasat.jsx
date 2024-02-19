@@ -28,7 +28,7 @@ const Barasat = () => {
         />
         <Cardss
           imageUrl="/properties/Barasat3.jpg"
-          price={"₹15,000"}
+          price={"₹1.4 Crore"}
           address={"Barasat Nabapally"}
           bedCount={"4"}
           bathCount={"2"}
@@ -38,7 +38,7 @@ const Barasat = () => {
       <div className="mt-10 flexBetween sm:flex-col gap-5">
         <Cardss
           imageUrl="/properties/Barasat4.jpg"
-          price={"₹15,000"}
+          price={"₹32 Lakhs"}
           address={"8, Alipore Park Pl, Alipore"}
           bedCount={"4"}
           bathCount={"2"}
@@ -46,7 +46,7 @@ const Barasat = () => {
         />
         <Cardss
           imageUrl="/properties/Barasat5.jpg"
-          price={"₹15,000"}
+          price={"₹3.35 Crore"}
           address={"8, Alipore Park Pl, Alipore"}
           bedCount={"4"}
           bathCount={"2"}

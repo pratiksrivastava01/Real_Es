@@ -181,7 +181,9 @@ const Test3 = () => {
                     ₹3.35Cr
                     {/* <span className="text-gray-20 regular-16">/month</span> */}
                   </p>
-                  <h1 className="font-bold bold-20">Beverly Springfield</h1>
+                  <h1 className="font-bold bold-20">
+                    Barasat indrolok yogashram.
+                  </h1>
                   <span className="text-gray-20">
                     8, Alipore Park Pl, Alipore
                   </span>
@@ -417,6 +419,11 @@ const Test3 = () => {
           {selectedOption === "Option 1" && <DumDum />}
           {selectedOption === "Option 2" && <Barasat />}
           {selectedOption === "Option 3" && <NewTown />}
+          <a href="">
+            <button className="bg-[#7065F0] px-10 rounded-lg p-4 text-white mt-10">
+              See more
+            </button>
+          </a>
         </section>
         {/* <section className="max-container  padding-container  gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
           <div className="text-center">

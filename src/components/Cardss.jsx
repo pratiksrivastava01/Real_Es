@@ -29,7 +29,7 @@ const Cardss = ({
         <div className="">
           <div className="px-4">
             <p className="block bold-20 font-bold text-[#7065F0]">
-              {price} <span className="text-gray-20 regular-16">/month</span>
+              {price} <span className="text-gray-20 regular-16"></span>
             </p>
             <h1 className="font-bold bold-20">{address}</h1>
             <span className="text-gray-20">{address}</span>

@@ -73,7 +73,7 @@ const Testimonials = () => {
           <div className="p-2">
             <div className="flex justify-center gap-10 items-center">
               <img
-                src="/p1.png"
+                src="/p2.png"
                 alt="person1"
                 height={55}
                 width={55}
@@ -115,7 +115,7 @@ const Testimonials = () => {
           <div className="p-2">
             <div className="flex justify-center gap-10 items-center">
               <img
-                src="/p1.png"
+                src="/p4.png"
                 alt="person1"
                 height={55}
                 width={55}
