@@ -133,7 +133,7 @@ const Test3 = () => {
               </div>
             </div>
 
-            <div className="mt-5">
+            {/* <div className="mt-5">
               <ul className="flex rounded-lg bg-white px-5 p-2 gap-12">
                 {Properties_Links.map((link) => (
                   <a
@@ -152,15 +152,15 @@ const Test3 = () => {
               </ul>
               {activeLink === "Rent" && <SaleComponent />}
               {activeLink === "Buy" && <SaleComponent />}
-              {activeLink === "Sell" && <SaleComponent />}
-              {/* <Button type="button" title="Download App" variant="btn_green" />
+              {activeLink === "Sell" && <SaleComponent />} */}
+            {/* <Button type="button" title="Download App" variant="btn_green" />
               <Button
                 type="button"
                 title="How we work?"
                 icon="/play.svg"
                 variant="btn_white_text"
               /> */}
-            </div>
+            {/* </div> */}
           </div>
 
           <div className="relative  flex-1 hidden md:w-full xl:w-auto xl:block items-start">
@@ -239,7 +239,7 @@ const Test3 = () => {
           </div>
         </div>
       </div>
-      <section className="max-container padding-container flex flex-col gap-20 py-10 pb-10 md:gap-28 lg:py-20 xl:flex-row">
+      {/* <section className="max-container padding-container flex flex-col gap-20 py-10 pb-10 md:gap-28 lg:py-20 xl:flex-row">
         <video
           src="/vid.mp4"
           autoPlay={true}
@@ -249,7 +249,7 @@ const Test3 = () => {
         >
           Your browser does not support the video tag.
         </video>
-      </section>
+      </section> */}
 
       <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 sm:pb-0 md:gap-28 lg:py-20 xl:flex-row">
         <img
@@ -368,11 +368,8 @@ const Test3 = () => {
           <div className="flex flex-row  sm:flex-col sm:justify-start justify-between items-center">
             <div className="text-center sm:text-left">
               <h1 className="font-bold text-2xl sm:text-3xl lg:text-4xl">
-                Based on your location
+                Some of our Premium Properties
               </h1>
-              <span className="text-gray-600 mt-2 sm:mt-3">
-                Some of our picked properties near your location
-              </span>
             </div>
 
             <div className="relative inline-block mt-4 sm:mt-0">

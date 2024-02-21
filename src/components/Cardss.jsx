@@ -1,7 +1,4 @@
-import { IoBed } from "react-icons/io5";
-import { MdOutlineBathtub } from "react-icons/md";
-import { SlSizeActual } from "react-icons/sl";
-
+import { BsWhatsapp } from "react-icons/bs";
 const Cardss = ({
   imageUrl,
   price,
@@ -10,6 +7,7 @@ const Cardss = ({
   bathCount,
   area,
   isPopular,
+  number,
 }) => {
   return (
     <section className="relative flex-1 flex flex-wrap ">
@@ -34,15 +32,28 @@ const Cardss = ({
             <h1 className="font-bold bold-20">{address}</h1>
             <span className="text-gray-20">{address}</span>
             <div className="border-t border-gray-30" />
-            <div className="mt-2 mb-4 flexBetween">
-              <div className="flex items-center gap-3">
-                <IoBed className="text-[#7065F0]" /> {bedCount}
+            <div className="flex justify-between  items-center">
+              <div className="mt-2 mb-4 flexBetween">
+                <div className="bg-[#7065F0] p-2 rounded-md text-white">
+                  <a
+                    href={`tel:%2B91${number}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {number}
+                  </a>
+                </div>
               </div>
-              <div className="flex items-center gap-3">
-                <MdOutlineBathtub className="text-[#7065F0]" /> {bathCount}
-              </div>
-              <div className="flex items-center gap-3">
-                <SlSizeActual className="text-[#7065F0]" /> {area}
+              <div className="bg-green-50 p-2 mt-[-5px] rounded-md">
+                <a
+                  href={`https://wa.me/+91${number}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex  items-center gap-3 text-white"
+                >
+                  <BsWhatsapp className="text-md text-white" />
+                  Chat
+                </a>
               </div>
             </div>
           </div>

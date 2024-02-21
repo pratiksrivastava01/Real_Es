@@ -10,21 +10,23 @@ const Barasat = () => {
       </h1>
       <div className="mt-10 flexBetween sm:flex-col gap-5">
         <Cardss
-          imageUrl="/properties/Barasat1.jpg"
-          price={"₹45 Lakhs"}
-          address={"Barasat indrolok  yogashram."}
+          imageUrl="/properties/Barasat5.jpg"
+          price={"₹3.35 Crore"}
+          address={"Purba Jadavpur"}
           bedCount={"4"}
           bathCount={"2"}
           area={"6 x 7.5 m²"}
-          isPopular={"true"}
+          number={9339222467}
         />
+
         <Cardss
           imageUrl="/properties/Barasat2.jpg"
-          price={"₹15,000"}
+          price={"₹68 Lakhs"}
           address={"Barasat Madhumurali"}
           bedCount={"4"}
           bathCount={"2"}
           area={"6 x 7.5 m²"}
+          number={7920932387}
         />
         <Cardss
           imageUrl="/properties/Barasat3.jpg"
@@ -33,25 +35,30 @@ const Barasat = () => {
           bedCount={"4"}
           bathCount={"2"}
           area={"6 x 7.5 m²"}
+          number={7920932387}
         />
       </div>
       <div className="mt-10 flexBetween sm:flex-col gap-5">
         <Cardss
           imageUrl="/properties/Barasat4.jpg"
           price={"₹32 Lakhs"}
-          address={"8, Alipore Park Pl, Alipore"}
+          address={"Duttakpur"}
           bedCount={"4"}
           bathCount={"2"}
           area={"6 x 7.5 m²"}
+          number={7920932387}
         />
         <Cardss
-          imageUrl="/properties/Barasat5.jpg"
-          price={"₹3.35 Crore"}
-          address={"8, Alipore Park Pl, Alipore"}
+          imageUrl="/properties/Barasat1.jpg"
+          price={"₹45 Lakhs"}
+          address={"Barasat indrolok  yogashram."}
           bedCount={"4"}
           bathCount={"2"}
           area={"6 x 7.5 m²"}
+          isPopular={"true"}
+          number={7920932387}
         />
+
         <Cardss
           imageUrl="/house-bg.jpg"
           price={"₹15,000"}
