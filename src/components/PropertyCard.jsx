@@ -45,7 +45,7 @@ const PropertyCard = ({
               {places}
             </div>
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between sm:flex-col">
             <div className="mt-5">
               <div className="flex gap-1 items-baseline">
                 <h1 className="text-2xl sm:text-lg font-bold">{price1}</h1>
@@ -94,7 +94,7 @@ const PropertyCard = ({
               rel="noopener noreferrer"
             >
               <h1 className="bg-blue-600 rounded-md bold sm:text-sm text-white  p-2">
-                Contact Developer
+                Contact Agent
               </h1>
             </a>
           </div>

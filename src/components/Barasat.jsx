@@ -4,9 +4,9 @@ const Barasat = () => {
   return (
     <>
       <h1 className="mt-10 bold-32 font-bold">
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600">
-          Find the best flats in Barasat
-        </span>
+        {/* <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600">
+          Find the best Properties
+        </span> */}
       </h1>
       <div className="mt-10 flexBetween sm:flex-col gap-5">
         <Cardss

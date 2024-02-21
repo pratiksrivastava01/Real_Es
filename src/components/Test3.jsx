@@ -11,6 +11,7 @@ import NewTown from "./NewTown";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Call from "./Call";
+import House from "./House";
 
 const SaleComponent = () => (
   <div className="bg-white border-t-red-500 rounded-lg p-4 flex flex-wrap items-center gap-10">
@@ -100,7 +101,7 @@ const Test3 = () => {
       <Navbar />
       <Call />
       <div className="bg-[#F7F7FD]">
-        <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+        <section className="max-container padding-container flex flex-col gap-20 sm:pb-0 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
           <div className="hero-map" />
 
           <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
@@ -112,7 +113,7 @@ const Test3 = () => {
               your dream property – a seamless marketplace for all your real
               estate needs.
             </p>
-
+            {/* 
             <div className="flexStart gap-16 sm:items-center">
               <div className="my-5  flex flex-col ">
                 <div className="bold-32 fkex text-[#7065F0]">
@@ -131,7 +132,7 @@ const Test3 = () => {
                 </div>
                 <span className="text-gray-20 ml-2">renters</span>
               </div>
-            </div>
+            </div> */}
 
             {/* <div className="mt-5">
               <ul className="flex rounded-lg bg-white px-5 p-2 gap-12">
@@ -161,50 +162,12 @@ const Test3 = () => {
                 variant="btn_white_text"
               /> */}
             {/* </div> */}
-          </div>
-
-          <div className="relative  flex-1 hidden md:w-full xl:w-auto xl:block items-start">
-            <div className="relative z-20 flex bg-white rounded-lg w-[268px] flex-col gap-8 ">
-              <div className="flex flex-col">
-                <div className="flexBetween">
-                  <img
-                    src="/properties/Barasat5.jpg"
-                    alt="house"
-                    className="rounded-lg"
-                  />
-                </div>
-              </div>
-
-              <div className="">
-                <div className="px-4">
-                  <p className="block bold-20 font-bold text-[#7065F0]">
-                    ₹3.35Cr
-                    {/* <span className="text-gray-20 regular-16">/month</span> */}
-                  </p>
-                  <h1 className="font-bold bold-20">
-                    Barasat indrolok yogashram.
-                  </h1>
-                  <span className="text-gray-20">
-                    8, Alipore Park Pl, Alipore
-                  </span>
-                  <div className="border-t border-gray-30" />
-                  <div className="mt-2 mb-4 flexBetween">
-                    <div className="flex items-center gap-3">
-                      <IoBed className="text-[#7065F0]" /> 4
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <MdOutlineBathtub className="text-[#7065F0]" /> 2
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <SlSizeActual className="text-[#7065F0]" /> 6 x 7.5 m²
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <button className="bg-[#7065F0] mt-5 text-white p-4 rounded-lg">
+              Browse Properties
+            </button>
           </div>
         </section>
-        <div className="relative ml-[72rem] mt-[-20rem] mb-10 flex-1 hidden md:w-full xl:w-auto xl:block items-start">
+        <div className="relative ml-[72rem] mt-[-20rem] mb-10 sm:mb-0 flex-1 hidden md:w-full xl:w-auto xl:block items-start">
           <div className="relative z-20 flex bg-white rounded-lg w-[200px] flex-col gap-8 ">
             <div className="flex flex-col">
               <div className="flexBetween">
@@ -250,68 +213,6 @@ const Test3 = () => {
           Your browser does not support the video tag.
         </video>
       </section> */}
-
-      <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 sm:pb-0 md:gap-28 lg:py-20 xl:flex-row">
-        <img
-          src="/properties/Barasat5.jpg"
-          alt="house"
-          className="h-[34rem] w-[33rem] rounded-lg sm:h-[20rem]  "
-        />
-
-        <div className="mt-5 sm:mt-2">
-          <ul className="flex rounded-lg bg-gray-10 px-5 p-2 gap-12 invisible">
-            {Info_Links.map((link) => (
-              <a
-                key={link.key}
-                href={link.href}
-                onClick={(event) => handleeLinkClick(event, link.label)}
-                className={`text-xl cursor-pointer pb-1.5 p-2 transition-all sm:text-sm  ${
-                  activeeLink === link.label
-                    ? "font-bold text-[#7065F0] bg-white rounded-lg border-b-blue-400"
-                    : "text-gray-50"
-                }`}
-              >
-                {link.label}
-              </a>
-            ))}
-          </ul>
-          {activeeLink === "For Tenents" && <TenentComponent />}
-          {activeeLink === "For Landlords" && <LandlordComponent />}
-          <div className="relative  flex-1 hidden ml-[-42rem] mt-[-30rem] bg-[#F7F7FD]  rounded-lg w-[15rem] p-4 md:w-full xl:w-[20rem] xl:block items-center border-2 ">
-            <div className="flex gap-10">
-              <img
-                src="/play-blue.png"
-                alt="play"
-                className="w-[3rem] h-[3rem]"
-              />
-              <div>
-                <h1 className="font-bold">Virtual Home tour</h1>
-                <h1 className="regular-14 text-gray-50">
-                  We provide you with your home tour
-                </h1>
-              </div>
-            </div>
-          </div>
-
-          {/* <Button type="button" title="Download App" variant="btn_green" />
-              <Button
-                type="button"
-                title="How we work?"
-                icon="/play.svg"
-                variant="btn_white_text"
-              /> */}
-          <div className="relative  flex-1 hidden ml-[-35rem] mt-[20rem] bg-[#F7F7FD]  rounded-lg w-[15rem] p-4 md:w-full xl:w-[20rem] xl:block items-center border-2 ">
-            <div className="flex gap-10">
-              <div>
-                <h1 className="font-bold">Find the best deals</h1>
-                <h1 className="regular-14 text-gray-50">
-                  Brouse thousands of properties
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
         <div className="relative z-20 flex flex-1 justify-center p-4 rounded-lg xl:w-1/2 bg-[#F7F7FD] border-2">
@@ -414,7 +315,7 @@ const Test3 = () => {
           </div>
 
           {selectedOption === "Option 1" && <DumDum />}
-          {selectedOption === "Option 2" && <Barasat />}
+          {selectedOption === "Option 2" && <House />}
           {selectedOption === "Option 3" && <NewTown />}
           <a href="/Bunglow">
             <button className="bg-[#7065F0] px-10 rounded-lg p-4 text-white mt-10">
