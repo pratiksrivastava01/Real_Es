@@ -66,7 +66,7 @@ const Footer = () => {
       <div className="border-t border-gray-800 mt-8" />
 
       <p className="text-center text-gray-300 mt-8">
-        2023 TechIota | All rights reserved
+        Property Platform 2024 | All rights reserved
       </p>
     </footer>
   );

@@ -99,7 +99,7 @@ const Test3 = () => {
   return (
     <>
       <Navbar />
-      <Call />
+      {/* <Call /> */}
       <div className="bg-[#F7F7FD]">
         <section className="max-container padding-container flex flex-col gap-20 sm:pb-0 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
           <div className="hero-map" />

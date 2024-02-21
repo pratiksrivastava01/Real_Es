@@ -55,18 +55,18 @@ export const FEATURES = [
 export const FOOTER_LINKS = [
   {
     title: "About",
-    links: ["About Us", "Jobs", "Privacy Policy", "Contact Us"],
+    links: ["About Us", "Jobs", "Privacy Policy", "Contact Us", "FAQ"],
   },
-  {
-    title: "Support",
-    links: ["Support Center", "Feedback", "FAQ"],
-  },
+  // {
+  //   title: "Support",
+  //   links: ["Support Center", "Feedback", "FAQ"],
+  // },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
-    { label: "Admin Officer", value: "9635246194" },
+    { label: "Admin Officer", value: "+91 9635246194" },
     { label: "Email Officer", value: "businessplatformyt@gmail.com" },
   ],
 };
