@@ -60,7 +60,7 @@ const Testimonials = () => {
               />
               <div className="flex flex-col">
                 <span className="bold-20">Manik Das</span>
-                <span>Repeted Customer</span>
+                {/* <span>Repeted Customer</span> */}
               </div>
             </div>
             <div className="mt-5">
@@ -81,7 +81,7 @@ const Testimonials = () => {
               />
               <div className="flex flex-col">
                 <span className="bold-20">Sanchita Roy</span>
-                <span>Job Position</span>
+                {/* <span>Job Position</span> */}
               </div>
             </div>
             <div className="mt-5">
@@ -102,7 +102,7 @@ const Testimonials = () => {
               />
               <div className="flex flex-col">
                 <span className="bold-20">Arindam Guinn</span>
-                <span>Job Position</span>
+                {/* <span>Job Position</span> */}
               </div>
             </div>
             <div className="mt-5">
@@ -123,7 +123,7 @@ const Testimonials = () => {
               />
               <div className="flex flex-col">
                 <span className="bold-20">Amrita Datta</span>
-                <span>Job Position</span>
+                {/* <span>Job Position</span> */}
               </div>
             </div>
             <div className="mt-5">

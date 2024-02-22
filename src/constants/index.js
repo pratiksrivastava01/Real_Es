@@ -2,8 +2,21 @@
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
   { href: "/about", key: "about", label: "About" },
-  { href: "/Bunglow", key: "Flats", label: "Bunglow" },
-  { href: "/hostels", key: "pricing ", label: "Hostels " },
+  {
+    href: "https://www.facebook.com/profile.php?id=61554670884412&mibextid=kFxxJD",
+    key: "Flats",
+    label: "Our Facebook",
+  },
+  {
+    href: "https://www.instagram.com/property_platform_kol?igsh=MXBjbTR4eWFnMzJudg==",
+    key: "pricing ",
+    label: "Our Instagram ",
+  },
+  {
+    href: "https://www.youtube.com/@BusinessPlatformYT",
+    key: "pricing ",
+    label: "Our Youtube ",
+  },
 ];
 export const Properties_Links = [
   { href: "/", key: "home", label: "For Sale" },
