@@ -1,12 +1,9 @@
-import React from "react";
-import Slider from "react-slick";
 import { FaLocationDot } from "react-icons/fa6";
 import PropTypes from "prop-types";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "swiper/css";
 
 const PropertyCard = ({
-  images,
+  image,
   location,
   owner,
   places,
@@ -20,31 +17,12 @@ const PropertyCard = ({
   number,
   amt,
 }) => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
   return (
     <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-      <Slider {...settings}>
-        {images.map((image, index) => (
-          <div key={index}>
-            <img
-              src={image}
-              alt=""
-              className="rounded-xl h-96 w-50 sm:w-full sm:h-auto"
-            />
-          </div>
-        ))}
-      </Slider>
       <div className="bg-gray-900 mt-10 rounded-xl flex sm:flex-col shadow-pink-500 shadow-lg items-center">
         <div className="">
           <img
-            src={`${images[0]}`}
+            src={`${image}`}
             alt=""
             className="rounded-xl h-96 w-50 sm:w-full sm:h-auto"
           />
@@ -120,7 +98,7 @@ const PropertyCard = ({
 };
 
 PropertyCard.propTypes = {
-  images: PropTypes.arrayOf(PropTypes.string).isRequired,
+  image: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   owner: PropTypes.string.isRequired,
   places: PropTypes.number.isRequired,

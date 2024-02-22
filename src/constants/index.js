@@ -317,7 +317,7 @@ export const propertyData9 = {
 };
 
 export const propertyData10 = {
-  image: ["/33.webp","/34.avif"],
+  image: "p10.JPG",
   location: "Semi furnished 3bhk flat ",
   owner: "AD Groups",
   places: "10 places nearby",
