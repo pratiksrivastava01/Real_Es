@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Call from "./Call";
 import Footer from "./Footer";
-import Navbaar from "./Navbaar";
+import Navbar from "./Navbar";
 
 const About = () => {
   useEffect(() => {
@@ -9,7 +9,7 @@ const About = () => {
   }, []);
   return (
     <>
-      <Navbaar />
+      <Navbar />
       <Call />
       <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
@@ -19,6 +19,37 @@ const About = () => {
           </div>
           <div className="flex justify-center p-4 sm:p-0  ">
             <div className=" w-[80%] sm:w-[100%] p-4 justify-center items-center">
+              <p>
+                Welcome to PROPERTY PLATFORM ! At PROPERTY PLATFORM , we believe
+                in more than just buying and selling properties – we're
+                dedicated to facilitating life-changing experiences. Whether
+                you're searching for your dream home, looking to invest in
+                lucrative properties, or seeking expert guidance on real estate
+                transactions, we're here to guide you every step of the way.
+                With a passion for innovation and a commitment to excellence, we
+                leverage cutting-edge technology and industry expertise to
+                redefine the real estate experience. Our team of seasoned
+                professionals brings years of collective experience in property
+                development, investment analysis, marketing strategies, and
+                negotiation tactics to ensure that your real estate journey is
+                seamless and rewarding. But beyond the transactions, we
+                prioritize building lasting relationships with our clients. We
+                understand that every client has unique needs and aspirations,
+                which is why we take the time to listen, understand, and tailor
+                our services to meet your specific goals. Whether you're a
+                first-time homebuyer, a seasoned investor, or a property owner
+                looking to sell, we're dedicated to delivering personalized
+                solutions that exceed your expectations. At PROPERTY PLATFORM ,
+                integrity, transparency, and professionalism are at the core of
+                everything we do. We pride ourselves on our unwavering
+                commitment to ethical business practices and strive to uphold
+                the highest standards of service excellence. When you choose to
+                partner with us, you can rest assured that you're in capable
+                hands. Thank you for considering us for your real estate needs.
+                We look forward to the opportunity to serve you and help you
+                achieve your real estate goals. Warm regards, Manas Chowdhury
+                Founder/CEO, PROPERTY PLATFORM
+              </p>
               <div className="flex flex-col gap-5">
                 <div className="flex flex-wrap  bg-primary-light shadow-2xl rounded-lg p-2 mt-5 sm:mt-0">
                   <img

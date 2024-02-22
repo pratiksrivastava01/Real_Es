@@ -35,40 +35,7 @@ const Test3 = () => {
             </button>
           </div>
         </section>
-        <div className="relative ml-[72rem] mt-[-20rem] mb-10 sm:mb-0 flex-1 hidden md:w-full xl:w-auto xl:block items-start">
-          <div className="relative z-20 flex bg-white rounded-lg w-[200px] flex-col gap-8 ">
-            <div className="flex flex-col">
-              <div className="flexBetween">
-                <img src="/house-bg.jpg" alt="house" className="rounded-lg" />
-              </div>
-            </div>
-
-            <div className="">
-              <div className="px-4">
-                <p className="block bold-16 font-bold text-[#7065F0]">
-                  ₹15,000{" "}
-                  <span className="text-gray-20 regular-14">/month</span>
-                </p>
-                <h1 className="font-bold bold-16">Beverly Springfield</h1>
-                <span className="text-gray-20 regular-14">
-                  8, Alipore Park Pl, Alipore
-                </span>
-                <div className="border-t border-gray-30" />
-                <div className="mt-2 mb-4 flexBetween">
-                  <div className="flex items-center regular-14 gap-3">
-                    <IoBed className="text-[#7065F0]" /> 4
-                  </div>
-                  <div className="flex items-center gap-3 regular-14">
-                    <MdOutlineBathtub className="text-[#7065F0]" /> 2
-                  </div>
-                  <div className="flex items-center gap-3 regular-14">
-                    <SlSizeActual className="text-[#7065F0]" /> 6 x 7.5 m²
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
 
       <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
