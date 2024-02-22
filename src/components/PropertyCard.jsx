@@ -82,7 +82,7 @@ const PropertyCard = ({
               <h1 className="sm:text-sm">{number}</h1>
             </a>
             <a
-              href={`https://wa.me/+91${number}`}
+              href={`tel:%2B91${number}`}
               target="_blank"
               rel="noopener noreferrer"
             >
