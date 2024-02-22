@@ -253,7 +253,7 @@ export const propertyData5 = {
 };
 
 export const propertyData6 = {
-  image: "/30.webp",
+  image: "/properties/P6.JPG",
   location: "2bhk flat sale",
   owner: "AD Groups",
   places: "10 places nearby",
@@ -269,7 +269,7 @@ export const propertyData6 = {
 };
 
 export const propertyData7 = {
-  image: "/31.jpg",
+  image: "/properties/P7.JPG",
   location: "Commercial shop for rent ",
   owner: "AD Groups",
   places: "10 places nearby",
@@ -285,7 +285,7 @@ export const propertyData7 = {
 };
 
 export const propertyData8 = {
-  image: "/32.jpg",
+  image: "/properties/P8.JPG",
   location: "5 BHK two  storey independent house ",
   owner: "AD Groups",
   places: "10 places nearby",
@@ -301,7 +301,7 @@ export const propertyData8 = {
 };
 
 export const propertyData9 = {
-  image: "/34.avif",
+  image: "/properties/P9.JPG",
   location: "2 bhk flat rent ",
   owner: "AD Groups",
   places: "10 places nearby",
@@ -317,7 +317,7 @@ export const propertyData9 = {
 };
 
 export const propertyData10 = {
-  image: "p10.JPG",
+  image: "/properties/p10.JPG",
   location: "Semi furnished 3bhk flat ",
   owner: "AD Groups",
   places: "10 places nearby",
