@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Call from "./Call";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
@@ -10,7 +9,6 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <Call />
       <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
           <div className="">
@@ -19,89 +17,41 @@ const About = () => {
           </div>
           <div className="flex justify-center p-4 sm:p-0  ">
             <div className=" w-[80%] sm:w-[100%] p-4 justify-center items-center">
-              <p>
-                Welcome to PROPERTY PLATFORM ! At PROPERTY PLATFORM , we believe
-                in more than just buying and selling properties – we're
-                dedicated to facilitating life-changing experiences. Whether
-                you're searching for your dream home, looking to invest in
-                lucrative properties, or seeking expert guidance on real estate
-                transactions, we're here to guide you every step of the way.
-                With a passion for innovation and a commitment to excellence, we
-                leverage cutting-edge technology and industry expertise to
-                redefine the real estate experience. Our team of seasoned
-                professionals brings years of collective experience in property
-                development, investment analysis, marketing strategies, and
-                negotiation tactics to ensure that your real estate journey is
-                seamless and rewarding. But beyond the transactions, we
-                prioritize building lasting relationships with our clients. We
-                understand that every client has unique needs and aspirations,
-                which is why we take the time to listen, understand, and tailor
-                our services to meet your specific goals. Whether you're a
-                first-time homebuyer, a seasoned investor, or a property owner
-                looking to sell, we're dedicated to delivering personalized
-                solutions that exceed your expectations. At PROPERTY PLATFORM ,
-                integrity, transparency, and professionalism are at the core of
-                everything we do. We pride ourselves on our unwavering
-                commitment to ethical business practices and strive to uphold
-                the highest standards of service excellence. When you choose to
-                partner with us, you can rest assured that you're in capable
-                hands. Thank you for considering us for your real estate needs.
-                We look forward to the opportunity to serve you and help you
-                achieve your real estate goals. Warm regards, Manas Chowdhury
+              <p className=" sm:mt-2 text-2xl sm:text-lg">
+                Welcome to PROPERTY PLATFORM ! <br />
+                At PROPERTY PLATFORM , we believe in more than just buying and
+                selling properties – we're dedicated to facilitating
+                life-changing experiences. Whether you're searching for your
+                dream home, looking to invest in lucrative properties, or
+                seeking expert guidance on real estate transactions, we're here
+                to guide you every step of the way. With a passion for
+                innovation and a commitment to excellence, we leverage
+                cutting-edge technology and industry expertise to redefine the
+                real estate experience. Our team of seasoned professionals
+                brings years of collective experience in property development,
+                investment analysis, marketing strategies, and negotiation
+                tactics to ensure that your real estate journey is seamless and
+                rewarding. But beyond the transactions, we prioritize building
+                lasting relationships with our clients. We understand that every
+                client has unique needs and aspirations, which is why we take
+                the time to listen, understand, and tailor our services to meet
+                your specific goals. Whether you're a first-time homebuyer, a
+                seasoned investor, or a property owner looking to sell, we're
+                dedicated to delivering personalized solutions that exceed your
+                expectations. At PROPERTY PLATFORM , integrity, transparency,
+                and professionalism are at the core of everything we do. We
+                pride ourselves on our unwavering commitment to ethical business
+                practices and strive to uphold the highest standards of service
+                excellence. When you choose to partner with us, you can rest
+                assured that you're in capable hands. Thank you for considering
+                us for your real estate needs. We look forward to the
+                opportunity to serve you and help you achieve your real estate
+                goals. <br /> Warm regards,
+                <br />{" "}
+                <span className="font-bold text-lg">Manas Chowdhury </span>{" "}
+                <br />
                 Founder/CEO, PROPERTY PLATFORM
               </p>
-              <div className="flex flex-col gap-5">
-                <div className="flex flex-wrap  bg-primary-light shadow-2xl rounded-lg p-2 mt-5 sm:mt-0">
-                  <img
-                    src="/journey.jpg"
-                    alt="journey"
-                    className="w-[35%] h-[35%] sm:w-[100%]"
-                  />
-                  <p className=" w-[65%]  mt-10 sm:mt-0 sm:w-[100%] p-4 sm:p-3">
-                    <h1 className="text-red font-bold text-3xl sm:text-xl sm:mb-0 mb-8">
-                      The Beginning
-                    </h1>
-                    Welcome to [Your Real Estate Company], founded by [Founder's
-                    Name] in [Year of Establishment]. Our mission is to redefine
-                    the real estate experience, going beyond transactions to
-                    make a lasting impact on how clients approach property. We
-                    are dedicated to changing lives, committed to perfection,
-                    and set new benchmarks of excellence. Join us for a
-                    transformative real estate journey, guiding you towards a
-                    brighter future with every step.
-                  </p>
-                </div>
-                <div className="flex flex-wrap  bg-primary-light rounded-lg shadow-2xl p-2 mt-5 sm:mt-0">
-                  <p className=" w-[65%]  mt-10 sm:mt-0 sm:w-[100%] p-4 sm:p-3">
-                    <h1 className="text-red font-bold text-3xl sm:text-xl sm:mb-0 mb-8">
-                      Our Success
-                    </h1>
-                    The success and unwavering faith of our clients have been
-                    our driving force at [Your Real Estate Company]. This trust
-                    has inspired us to expand our horizons beyond conventional
-                    real estate practices. Motivated by this confidence, we've
-                    undertaken a mission to offer comprehensive property
-                    solutions, akin to our Integrated School Programs like UDAYA
-                    Plus, SUPREME, and PINNACLE at FIITJEE. Our commitment
-                    extends to providing a wholesome school education through
-                    initiatives like FIITJEE Junior Colleges in Bhubaneswar,
-                    Hyderabad, Vijayawada, and Visakhapatnam. Collaborating with
-                    like-minded schools nationwide, we aim to create an ideal
-                    educational platform that ensures students gain admission to
-                    premier institutions without external coaching stress. This
-                    same faith has propelled us to achieve landmark success in
-                    various arenas, including NTSE. Join us as we continue to
-                    build on this foundation of trust, offering a transformative
-                    real estate experience tailored to your unique needs and
-                    aspirations.
-                  </p>
-                  <img
-                    src="success.jpg"
-                    alt="success"
-                    className="w-[35%] h-[35%] sm:w-[100%]"
-                  />
-                </div>
-              </div>
             </div>
           </div>{" "}
           <div className="flex justify-center flex-col items-center p-4 sm:p-0  ">
@@ -110,10 +60,14 @@ const About = () => {
                 Our Mission
               </h1>
               <p className="mt-[3rem] sm:mt-2 text-2xl sm:text-lg">
-                To create World's Best Institution that serves the society for
-                thousands of years -may be perennially. To Make India Global
-                Leader In Education, both In Not For Profit as well as For
-                Profit Ventures.{" "}
+                Our mission is to exceed expectations by delivering exceptional
+                service, fostering meaningful relationships, and providing
+                unparalleled expertise in real estate transactions. We strive to
+                empower our clients with the knowledge and resources they need
+                to make informed decisions, while always prioritizing their best
+                interests. Through integrity, transparency, and a dedication to
+                excellence, we aim to be the trusted partner our clients rely on
+                for all their real estate needs.
               </p>
               <img
                 src={`mission.jpg`}
@@ -126,10 +80,12 @@ const About = () => {
                 Our Vision
               </h1>
               <p className="mt-[3rem] sm:mt-2 text-2xl sm:text-lg">
-                Keeping our mission in mind. we will establish a
-                transformational leadership position in each of our projects
-                across the globe. We will become a Comprehensive Global Leader
-                In Education by 2030.
+                Empowering dreams, shaping futures. We envision a world where
+                every individual finds their perfect place to call home. Our
+                commitment to excellence, innovation, and integrity drives us to
+                redefine the real estate experience, creating spaces that
+                inspire, communities that thrive, and connections that last a
+                lifetime
               </p>
               <img
                 src={`vision.jpg`}

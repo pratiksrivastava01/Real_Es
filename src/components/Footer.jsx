@@ -68,6 +68,11 @@ const Footer = () => {
       <p className="text-center text-gray-300 mt-8">
         Property Platform 2024 | All rights reserved
       </p>
+      <a href="https://www.instagram.com/tech_iota?igsh=MXR1dzZlbWY4YTVucQ==">
+        <p className="text-center text-blue-500 mt-8">
+          Developed By team TechIota
+        </p>
+      </a>
     </footer>
   );
 };
