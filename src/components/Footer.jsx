@@ -42,11 +42,13 @@ const Footer = () => {
 
           <FooterColumn title={SOCIALS.title}>
             <ul className="flex gap-4 text-white">
-              {SOCIALS.links.map((link) => (
+              {SOCIALS.links.map((link, index) => (
                 <li key={link}>
                   <a
-                    href="/"
+                    href={SOCIALS.goto[index]} // Set the href to the corresponding link from SOCIALS.goto
                     className="hover:text-blue-400 bg-white text-white"
+                    target="_blank" // Open link in a new tab
+                    rel="noopener noreferrer" // Recommended for security and performance
                   >
                     <img
                       src={link}

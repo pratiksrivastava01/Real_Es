@@ -37,7 +37,7 @@ const Navbar = () => {
       </div>
 
       <ul
-        className={`hidden lg:flex h-full gap-12 ${
+        className={`hidden lg:flex h-full  gap-12 ${
           isMenuOpen ? "absolute" : ""
         }`}
       >
@@ -62,7 +62,7 @@ const Navbar = () => {
 
       {/* Responsive menu for small screens */}
       {isMenuOpen && (
-        <div className="lg:hidden absolute top-full h-[100vh]  left-48 right-0 bg-white shadow-md">
+        <div className="lg:hidden absolute top-full h-fit p-4  left-48 right-0 bg-white shadow-md">
           {NAV_LINKS.map((link) => (
             <a
               href={link.href}

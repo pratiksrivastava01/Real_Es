@@ -56,6 +56,7 @@ export const FOOTER_LINKS = [
   {
     title: "About",
     links: ["About Us", "Jobs", "Privacy Policy", "Contact Us", "FAQ"],
+    goto: ["/about"],
   },
   // {
   //   title: "Support",
@@ -73,7 +74,12 @@ export const FOOTER_CONTACT_INFO = {
 
 export const SOCIALS = {
   title: "Social",
-  links: ["/facebook.png", "/instagram.png", "/twitter.png", "/youtube.png"],
+  links: ["/facebook.png", "/instagram.png", "/youtube.png"],
+  goto: [
+    "https://www.facebook.com/profile.php?id=61554670884412&mibextid=kFxxJD",
+    "https://www.instagram.com/property_platform_kol?igsh=MXBjbTR4eWFnMzJudg==",
+    "https://www.youtube.com/@BusinessPlatformYT",
+  ],
 };
 
 export const features = [
