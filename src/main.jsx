@@ -8,6 +8,7 @@ import Hostels from "./components/Hostels.jsx";
 import Test from "./components/Test.jsx";
 import Test2 from "./components/Test2.jsx";
 import Test3 from "./components/Test3.jsx";
+import Test4 from "./components/Test4.jsx";
 
 const router = createBrowserRouter([
   {
@@ -36,7 +37,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/test3",
-    element: <Test3 />,
+    element: <Test4 />,
   },
 ]);
 
