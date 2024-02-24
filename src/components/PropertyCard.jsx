@@ -75,7 +75,7 @@ const PropertyCard = ({
           </div> */}
           <div className="mt-5 flex justify-end gap-5 items-center">
             <a
-              href="tel:%2B918207637632"
+              href={`tel:%2B91${number}`}
               target="_blank"
               rel="noopener noreferrer"
             >
